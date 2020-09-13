@@ -204,8 +204,10 @@ def url_satisfies_query(url, query):
                 return False
     return satisfies
 
-
+print('works')
 if __name__=='__main__':
+    print('works')
+    print('works')
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', required=True)
